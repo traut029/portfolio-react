@@ -1,5 +1,11 @@
 body{
- background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./images/stony-wall.jpg")
+ /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./images/stony-wall.jpg") */
+ /* background-image:url("./images/what-the-hex.png") */
+ background-color:#272727;
+ color:#cacaca;
+}
+hr{
+  border-color:grey;
 }
 .ProfileImage {
   float:left;
@@ -34,3 +40,67 @@ body{
 .contact-images{
   margin:10px;
 }
+.hamburger-links h2{
+
+font-size:1em;
+}
+
+.overlay {
+  /* margin-top:200px; */
+  position: fixed; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#272727;
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  /* cursor: pointer; Add a pointer on hover */
+}
+.hidden{
+  display: none; /* Hidden by default */
+}
+.revealed{
+  display: block;
+}
+.bar-image{
+  cursor: pointer;
+  position:fixed;
+  margin:20px;
+  z-index: 3;
+  right:0;
+}
+.hamburger-links{
+  width:50%;
+  margin:10% auto 0 auto;
+  font-size:5em;
+}
+/* a {
+  color:red;
+} */
+a.nav-link{
+color:rgb(56, 56, 56);
+}
+a.nav-link.active{
+  color:#cacaca;
+  }
+a:hover { 
+  background-color: rgb(24, 24, 24);
+  color:#cacaca;
+}
+.project-image{
+  display:inline-block;
+  margin:10px;
+  width:100%;
+  border:1px solid black;
+}
+.project-top{
+  margin-top:10%;
+}
+.btn{
+margin:10px;
+}
+/* .carousel{
+  height:300px;
+} */
